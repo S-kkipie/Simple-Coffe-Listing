@@ -10,7 +10,7 @@ export default function Card({ props }) {
         <p className="price">{price}</p>
       </div>
       <p className="rating">
-        <img src="./public/Star_fill.svg" alt="" />
+        <img src="./Star_fill.svg" alt="" />
         <span style={{ color: "#FEF7EE" }}>{rating}</span>{" "}
         <span>{"(" + votes + " votes)"}</span>
       </p>
