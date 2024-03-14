@@ -28,10 +28,10 @@ function App() {
     });
   return (
     <div className="appContainer">
-      <img className="imgBackground" src="../public/bg-cafe.jpg" alt="" />
+      <img className="imgBackground" src="./bg-cafe.jpg" alt="" />
       <main>
         <div>
-          <img className="imgVector" src="../public/vector.svg" alt="" />
+          <img className="imgVector" src=".vector.svg" alt="" />
           <h1>Our Collection</h1>
           <p>
             Introducing our Coffee Collection, a selection of unique coffees
