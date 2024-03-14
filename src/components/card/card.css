@@ -1,0 +1,46 @@
+.item * {
+  padding: 0;
+  margin: 0;
+}
+.item {
+  position: relative;
+  width: 260px;
+}
+.item img {
+  border-radius: 10px;
+}
+.item .popular {
+  margin: 10px;
+  position: absolute;
+  top: 0;
+  padding: 0 10px;
+  font-size: 0.75rem;
+  border-radius: 15px;
+  color: #111315;
+  background-color: #f6c768;
+}
+.item .coffeeInfo {
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.item .coffeeInfo .name {
+  color: #fef7ee;
+}
+.item .coffeeInfo .price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0 10px;
+  background-color: #bee3cc;
+  border-radius: 5px;
+  color: #111315;
+}
+.item .rating {
+  display: flex;
+  text-align: left;
+  margin: 10px;
+  gap: 5px;
+}
